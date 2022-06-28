@@ -7,11 +7,11 @@
 
 // --------------------1) What will this log?
 
-var cohort = "Delta 2022"
-// console.log(cohort.split(""))
+ var cohort = "Delta 2022"
+//  console.log(cohort.split(""))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: split would put every value in its own quotation mark, turn it string into an array
+// b) Verify and explain: my answer is suprisingly correct, every value in the string 
 
 
 // --------------------2) What will this log?
@@ -19,28 +19,28 @@ var cohort = "Delta 2022"
 const greeter = (name) => {
   `Hello, ${name}!`
 }
-// console.log(greeter("LEARN Student"))
+ //console.log(greeter("EARN Student"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: output is 'Hello Learn Student' 
+// b) Verify and explain: is is saying undefined for some reason???? i tirted to fi it but couldnt :(
 
 
 // --------------------3) What will this log?
 
 var multBy2 = [4, 5, 6, 7, 8].map(value => value * 2)
-// console.log(multBy2)
+ //console.log(multBy2)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: all values will be multiplied by 2 
+// b) Verify and explain: my answer is correct! .map will iterate the through the array and multiplying each value by 2. 
 
 
 // --------------------4) What will this log?
 
 var onlyOdds = [11, 12, 13, 14, 15].filter(value => value % 2 !== 0)
-// console.log(onlyOdds)
+//console.log(onlyOdds)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: will return only odd numbers
+// b) Verify and explain: answer is correct! .filter will give out a new array with the results that have met the condition. sp [11, 13, 15]
 
 
 // --------------------5) What will this log?
@@ -51,10 +51,10 @@ var myCodingSkills = {
   databases: "PostgreSQL",
   versionControl: "GitHub"
 }
-// console.log(myCodingSkills.languages[0])
+//console.log(myCodingSkills.languages[0])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: this will return the first value in the language string which is javascript
+// b) Verify and explain: answer is correct! becuase the vlaue of zero in the languages array is "javascript"
 
 
 // --------------------STRETCH: What will this log?
@@ -67,7 +67,7 @@ class Learn {
   }
 }
 var learnStudent = new Learn("George")
-// console.log(learnStudent)
+console.log(learnStudent)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: name is the paramater for geroge, I hope my statement is correct!  
+// b) Verify and explain: yup! im correct. though I am not sure how to explain, but this.student has a string and 'goerge' filled in. 
